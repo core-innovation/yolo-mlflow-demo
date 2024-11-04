@@ -1,0 +1,22 @@
+
+model:
+  type: 'yolov8m' # model type (yolov5m, yolov8n, yolov8s, etc.)
+  model_path: '/Users/dimitriospolitikos/Library/CloudStorage/OneDrive-COREINNOVATION/git-codes/yolo-mlflow-demo/models/yolov8m.pt'
+
+data_path: '/Users/dimitriospolitikos/Library/CloudStorage/OneDrive-COREINNOVATION/git-codes/yolo-mlflow-demo/data/dataset.yaml'
+save_model_path : '/Users/dimitriospolitikos/Library/CloudStorage/OneDrive-COREINNOVATION/git-codes/yolo-mlflow-demo/models/saved_yolov8m.pt'
+
+training:
+  epochs: 4
+  img_size: 640
+  batch_size: 8
+  device: 'mps' # or 'cpu'
+  learning_rate: 0.001
+  optimizer: 'Adam'
+  checkpoint_interval: 1
+  experiment_name : 'YOLO training-mlflow'
+  tracking_uri: "http://127.0.0.1:5000"
+  
+augmentation:
+  flip: True
+  brightness: 0.2

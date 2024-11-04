@@ -1,0 +1,6 @@
+train: /Users/dimitriospolitikos/Library/CloudStorage/OneDrive-COREINNOVATION/git-codes/yolo-mlflow-demo/data/train/images
+val: /Users/dimitriospolitikos/Library/CloudStorage/OneDrive-COREINNOVATION/git-codes/yolo-mlflow-demo/data/valid/images
+test: /Users/dimitriospolitikos/Library/CloudStorage/OneDrive-COREINNOVATION/git-codes/yolo-mlflow-demo/data/test/images
+
+nc: 64
+names: ['airplane', 'baseball bat', 'baseball glove', 'bear', 'bed', 'bicycle', 'bird', 'boat', 'bottle', 'bouquet', 'bowl', 'broccoli', 'bus', 'cake', 'candle', 'car', 'cat', 'chair', 'clock', 'couch', 'cup', 'dog', 'donut', 'door', 'elephant', 'food', 'footwear', 'fork', 'frisbee', 'giraffe', 'glass', 'horse', 'kite', 'knife', 'mobile phone', 'motorcycle', 'oven', 'pan', 'person', 'pizza', 'refrigerator', 'remote', 'scissor', 'ship', 'shoes', 'sign board', 'sink', 'skateboard', 'skis', 'spoon', 'sports ball', 'stop sign', 'suitcase', 'teddy bear', 'tennis racker', 'toilet', 'toothbrush', 'track', 'traffic light', 'train', 'tree', 'truck', 'umbrella', 'zebra']
